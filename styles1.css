@@ -80,6 +80,7 @@ This is the ground area to work on the css and html
     text-decoration: none;
     color: black;
 }
+<<<<<<< HEAD
 .name{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 6px;
@@ -88,6 +89,9 @@ This is the ground area to work on the css and html
     color: black;
     overflow:hidden;
 }
+=======
+
+>>>>>>> 780ed98614ad3961f6278cca44bca3fd8d4ad1a8
 #socials:hover{
     color: white;
     transition: .45s; 
@@ -96,9 +100,13 @@ This is the ground area to work on the css and html
 .aboutMe{
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
+<<<<<<< HEAD
     font-size: medium;
     word-wrap: break-word;
     width: 100%;
+=======
+    font-size: 16px;
+>>>>>>> 780ed98614ad3961f6278cca44bca3fd8d4ad1a8
 }
 .meAbout{
     margin-left:auto;
@@ -117,7 +125,10 @@ This is the ground area to work on the css and html
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+<<<<<<< HEAD
     overflow:auto;
+=======
+>>>>>>> 780ed98614ad3961f6278cca44bca3fd8d4ad1a8
 
     
 }
@@ -203,7 +214,11 @@ This is the ground area to work on the css and html
 .service{
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
+<<<<<<< HEAD
     font-size:medium;
+=======
+    font-size: 20px;
+>>>>>>> 780ed98614ad3961f6278cca44bca3fd8d4ad1a8
     padding-left: 25%;
 }
 
