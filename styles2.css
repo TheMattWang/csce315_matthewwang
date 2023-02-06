@@ -1,0 +1,25 @@
+
+/*
+I don't want clouds in this one, I want it to look a little more professional than
+*/
+
+.cloud_x1 {
+    display:none;
+}
+
+.cloud_x2 {
+    display:none;
+}
+.cloud_x3 {
+    display:none;
+}
+.cloud_x4 {
+    display:none;
+}
+.cloud_x5 {
+    display:none;
+}
+
+#cloud {
+    display:none;
+}
