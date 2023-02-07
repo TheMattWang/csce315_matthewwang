@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    color: #555555;
+}
+
 
 /*
 I don't want clouds in this one, I want it to look a little more professional than
