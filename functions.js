@@ -1,30 +1,21 @@
-function load_style() {
-    page_style = localStorage.getItem("page_stylesheet_name");
-    if(page_style === null){
-        page_style = "styles1.css";
+const style1 = 'styles1.css';
+const style2 = 'styles2.css';
+
+window.onload = () => {
+    // load stylesheet
+    let saved_style = localStorage.getItem('css');
+    if (saved_style === null) saved_style = style1_path;
+    document.getElementById('currentCSS').setAttribute('href', saved_style);
+}
+
+const switchStyle = () => {
+    const elem = document.getElementById('currentCSS');
+    if (elem.getAttribute('href') === style1) {
+        elem.setAttribute('href', style2);
+        localStorage.setItem('css', style2);
     }
-    document.getElementById('page_style').setAttribute("href",page_style);
-}
-
-
-const button = document.getElementById("changeCSS");
-const link = document.getElementById("currentCSS");
-button.addEventListener("click", alert("button was clicked"));
-button.addEventListener("click", function() {
-    if(link.getAttribute("href") === "styles1.css") {
-        link.setAttribute("href","styles2.css");
-        localStorage.setItem("css", "styles2.css");
-    } else {
-        link.setAttribute("href","styles1.css");
-        localStorage.setItem("css", "styles2.css");
+    else {
+        elem.setAttribute('href', style1);
+        localStorage.setItem('css', style1);
     }
 }
-
-);
-const storedCSS = localStorage.getItem("css");
-if(storedCSS) {
-    link.setAttribute("href",storedCSS);
-}
-
-
-

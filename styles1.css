@@ -11,6 +11,16 @@ nav{
     background-color: inherit;
 }
 
+#changeCSS{
+    cursor: pointer;
+    max-height: 5%;
+    background-color: inherit;
+    bottom: 0;
+    left: 0;
+    border-radius: 12px;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+}
 /* nav ul {
     margin: 0 auto;
     display: flex;
@@ -42,11 +52,35 @@ body{
 }
 
 
-#greeting {
+#greeting{
      text-align: center;
      font-family: 'Roboto Condensed', sans-serif;
      font-size: 60px;
 }   
+
+#me {
+    text-align: center;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-size: 60px;
+}
+
+#portfolio{
+    text-align: center;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-size: 60px;
+}
+
+#qual{
+    text-align: center;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-size: 60px;
+}
+
+#service{
+    text-align: center;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-size: 60px;
+}
 #main{
     max-width: 25%;
     height: auto;
